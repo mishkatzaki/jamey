@@ -76,7 +76,8 @@ else if (currentCadidateOffset==16 && this.isFirstMove() &&
                     }
                 }
             }
-
+//kill in diagonal
+//            promotion is miising
 //            NEED EXPLAINATION!!!!!!!!
         return ImmutableList.copyOf(legalMoves);
 

@@ -1,7 +1,7 @@
 package com.chess.engine.Pieces;
 
 public enum Alliancee {
-    WHITE{
+    WHITE {
         //   override
       public  int getDirection(){
             return -1;
