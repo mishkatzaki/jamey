@@ -53,7 +53,7 @@ else if (currentCadidateOffset==16 && this.isFirstMove() &&
 
 //     the pawn jump
             else if (currentCadidateOffset==7 &&
-                     !((BoardUtils.EIGHTH_COLUMN[this,piecePosition]&&this.pieceAlliance.isWhite() ||
+                     !((BoardUtils.EIGHTH_COLUMN[this,piecePosition]&&this.pieceAlliance.isWhite( ) ||
                     (BoardUtils.FIRST_COLUMN[this.piecePosition]&& this.pieceAalliance.isBlack()))))
             {
                 if(board.getTile(candidateDestinationCoordinate).isTileOccupied()){
