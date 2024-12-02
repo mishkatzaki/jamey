@@ -16,9 +16,9 @@ public class Pawn  {
 
     public Collection<Move> calculateLegalMoves(final Board board) {
 //        the move has a class in the previous code
-        final List<Move> legalMoves = new ArrayList();
-
-        for (final int currentCadidateOffset : CANDIDATE_MOVE_COORDINATE) {
+        final List<Move> legalMoves = new ArrayList( );
+// I added this now!
+        for (final int currentCadidateOffset : CANDIDATE_MOVE_COORDINATE ) {
 
            final int candidateDestinationCoordinate = this.piecePosition + (this.pieceAlliance.getPieceAlliance().getDirection() * currentCadidateOffset);
 //             would apply 8 for black and -8 for white
